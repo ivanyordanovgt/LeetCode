@@ -6,7 +6,6 @@ def removeElement(nums, val):
             nums[k] = nums[i]
             k += 1
 
-    # Return the number of elements not equal to val.
     return k
 
 result = removeElement([3, 2, 2, 3], 3)
