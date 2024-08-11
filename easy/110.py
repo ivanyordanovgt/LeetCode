@@ -16,8 +16,9 @@ def isBalanced(root):
         balanced = (left_balanced and right_balanced) and abs(left_hight - right_hight) <= 1
 
         return balanced, height
+    is_balanced, height = findBalance(root)
 
-    return findBalance(root)
+    return is_balanced
 
 
 input = listToTreeNode([1, 2, 2, 3, None, None, 3, 4, None, None, 4])
