@@ -6,7 +6,7 @@ Progress from easy to mid, then to hard, and finally to contests, advancing only
 
 **Current**:<br>
 1. Easy: 30/818
-2. Med: 12/1706
+2. Med: 13/1706
 3. Hard: 3/728
 
 **[Profile](https://leetcode.com/u/iyordanovgt3/)**
