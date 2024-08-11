@@ -1,7 +1,12 @@
-## Goal
+### Goal
 Solve every single problem in LeetCode
 
-## Approach
-Current goal is:<br>
-1. Solve 50 questions of type: easy,medium,hard
-2. Solve 10 extra questions of each type in given amount of time: 10m, 30m, 45m
+### Approach
+Progress from easy to mid, then to hard, and finally to contests, advancing only when I can consistently solve the next level.
+
+Example:<br>
+Solve easy questions until i can consistently solve mid ones. 
+
+### Commit format
+Number of questions if it's a good solution. <br>
+Extra text "COME BACK" / "NOT GOOD" etc etc if I want to come back to it eventually.
