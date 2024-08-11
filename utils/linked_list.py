@@ -19,3 +19,15 @@ def create_linked_list(lst):
         current_node = current_node.next
 
     return head
+
+
+def linked_list_to_list(head):
+    result = []
+    current_node = head
+
+    # Traverse the linked list and collect values
+    while current_node:
+        result.append(current_node.val)
+        current_node = current_node.next
+
+    return result
