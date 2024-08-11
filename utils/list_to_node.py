@@ -1,5 +1,5 @@
 from collections import deque
-from tree_node import TreeNode
+from utils.tree_node import TreeNode
 
 
 def listToTreeNode(lst):
