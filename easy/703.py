@@ -1,3 +1,6 @@
+import time
+
+
 class KthLargest(object):
 
     def __init__(self, k, nums):
@@ -29,12 +32,11 @@ kthLargest = KthLargest(*input)
 
 input_list = [[2],[1],[-1],[3],[4]]
 results = []
+start = time.time()
 for el in input_list:
     results.append(kthLargest.add(el[0]))
-  # // return 4
-   # // return 5
-  # // return 5
-   # // return 8
 
 for res in results:
     print(res)
+
+print(f"Time it took: {time.time()-start}")
